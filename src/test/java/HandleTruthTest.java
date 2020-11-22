@@ -40,6 +40,7 @@ public class HandleTruthTest {
                 set.add("hi");
                 set.add("is");
                 expected.put(3, set);
+                keys.add(3);
                 set = new HashSet<>();
                 set.add("how");
                 set.add("what");
@@ -47,6 +48,7 @@ public class HandleTruthTest {
                 set.add("dude");
                 set.add("you");
                 expected.put(2, set);
+                keys.add(2);
                 set = new HashSet<>();
                 set.add("thanks");
                 set.add("again");
@@ -60,15 +62,18 @@ public class HandleTruthTest {
                 set.add("great");
                 set.add("good");
                 expected.put(1, set);
+                keys.add(1);
                 break;
             case 2:
                 msg = "hey low hey high hey slow hey bye sigh nevermind bye";
                 set = new HashSet<>();
                 set.add("hey");
                 expected.put(4, set);
+                keys.add(4);
                 set = new HashSet<>();
                 set.add("bye");
                 expected.put(2, set);
+                keys.add(2);
                 set = new HashSet<>();
                 set.add("high");
                 set.add("sigh");
@@ -76,20 +81,24 @@ public class HandleTruthTest {
                 set.add("low");
                 set.add("nevermind");
                 expected.put(1, set);
+                keys.add(1);
                 break;
             case 3:
                 msg = "a dog went to a park and a different dog followed a little dog was there and a big dog was there too";
                 set = new HashSet<>();
                 set.add("a");
                 expected.put(5, set);
+                keys.add(5);
                 set = new HashSet<>();
                 set.add("dog");
                 expected.put(4, set);
+                keys.add(4);
                 set = new HashSet<>();
                 set.add("and");
                 set.add("there");
                 set.add("was");
                 expected.put(2, set);
+                keys.add(2);
                 set = new HashSet<>();
                 set.add("big");
                 set.add("went");
@@ -100,21 +109,26 @@ public class HandleTruthTest {
                 set.add("park");
                 set.add("little");
                 expected.put(1, set);
+                keys.add(1);
                 break;
             case 4:
                 msg = "a a a a a a a a a a a a hi hi hi hi hi no no no right right";
                 set = new HashSet<>();
                 set.add("a");
                 expected.put(12,set);
+                keys.add(12);
                 set = new HashSet<>();
                 set.add("hi");
                 expected.put(5,set);
+                keys.add(4);
                 set = new HashSet<>();
                 set.add("no");
                 expected.put(3,set);
+                keys.add(3);
                 set = new HashSet<>();
                 set.add("right");
                 expected.put(2,set);
+                keys.add(2);
                 break;
             case 5:
                 msg = "no";

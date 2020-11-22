@@ -30,9 +30,9 @@ public class HandleTruth {
             sortedMap.put(entry.getValue(), values);
         }
 
-        for (Map.Entry<Integer, Set<String>> entry : sortedMap.entrySet()) {
+        /*for (Map.Entry<Integer, Set<String>> entry : sortedMap.entrySet()) {
             System.out.println(entry);
-        }
+        }*/
         return sortedMap;
     }
 }
